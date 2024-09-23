@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('b2.jpg'); /* Background image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: exo;
+    src: url(Exo-Black.otf);
+}
+
+header {
+    background-color: rgba(0, 5, 57, 0.01); /* Semi-transparent background */
+    padding: 10px 0;
+}   
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo-heading {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px; /* Adjust the height as needed */
+    margin-right: 15px; /* Space between logo and heading */
+}
+
+.heading h1 {
+    font-family:'exo';
+    margin: 0;
+    font-size: 45px; /* Adjust as needed */
+    color: rgb(240, 228, 5); /* Ensure the text color is visible */
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+.navbar ul li a {
+    color: rgb(244, 245, 251);
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar ul li a:hover {
+    color: rgb(8, 0, 250);
+}
+.signin {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.signin:hover {
+    background-color: #777;
+}
+
+/* General Styling for the Sign In Page */
+#signin {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 500px;
+    border-radius: 15px;
+    background-color: rgba(221, 244, 255, 0.01); /* Increased transparency */
+    text-align: center;
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.btn {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 19px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #777;
+}
+#huh {
+    color: #f4f4f4;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: #300cffa7;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: white;
+    margin-top: 150px;
+}

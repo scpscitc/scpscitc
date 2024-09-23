@@ -1,0 +1,140 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b0000;
+    background-image: url('b2.jpg'); /* Add your background image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: exo;
+    src: url(Exo-Black.otf);
+}
+header {
+    background-color: rgba(0, 5, 57, 0.01); /* Semi-transparent background */
+    padding: 10px 0;
+}   
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo-heading {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px; /* Adjust the height as needed */
+    margin-right: 15px; /* Space between logo and heading */
+}
+
+.heading h1 {
+    font-family:'exo';
+    margin: 0;
+    font-size: 45px; /* Adjust as needed */
+    color: rgb(240, 228, 5); /* Ensure the text color is visible */
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+.navbar ul li a {
+    color: rgb(247, 248, 251);
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar ul li a:hover {
+    color: rgb(16, 67, 255);
+}
+.signin {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.signin:hover {
+    background-color: #777;
+}
+
+section {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 1000px;
+    border-radius: 15px;
+    background-color: rgba(221, 244, 255, 0.01); /* Increased transparency */
+}
+#contact {
+    text-align: center;
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.info-box {
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    color: white;
+}
+
+.icon {
+    font-size: 40px;
+    color: #f1c40f;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+p {
+    margin: 0;
+}
+
+.social-links {
+    margin-top: 50px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: rgb(16, 67, 255);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: white;
+    margin-top: 80px;
+}

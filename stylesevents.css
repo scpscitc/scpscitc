@@ -1,0 +1,161 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b0000;
+    background-image: url('b2.jpg'); /* Add your background image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: exo;
+    src: url('Exo-Black.otf');
+}
+
+header {
+    background-color: rgba(0, 5, 57, 0.01); /* Semi-transparent background */
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo-heading {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px; /* Adjust the height as needed */
+    margin-right: 15px; /* Space between logo and heading */
+}
+
+.heading h1 {
+    font-family: 'exo';
+    margin: 0;
+    font-size: 45px; /* Adjust as needed */
+    color: rgb(240, 228, 5); /* Ensure the text color is visible */
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+.navbar ul li a {
+    color: rgb(247, 248, 251);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: rgb(16, 67, 255);
+}
+
+.signin {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.signin:hover {
+    background-color: #777;
+}
+
+/* Home Page Section */
+section {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 1000px;
+    border-radius: 15px;
+    background-color: rgba(221, 244, 255, 0.01); /* Increased transparency */
+}
+
+#home {
+    text-align: left;
+}
+
+#wc {
+    font-size: 55px;
+    font-family: 'exo', sans-serif;
+}
+
+#info {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Events Page Styles */
+#events {
+    padding: 40px;
+    margin: 50px auto;
+    max-width: 1000px;
+    background-color: rgba(221, 244, 255, 0.01); /* Increased transparency */
+    border-radius: 15px;
+    color: white; /* Ensure text is visible on the dark background */
+}
+#events p{
+    font-size: 22px;
+}
+
+#events h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-family: 'exo', sans-serif;
+}
+
+.event-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.event-item {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.event-item h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: rgb(240, 228, 5);
+    font-family: 'exo', sans-serif;
+}
+
+.event-item p {
+    font-size: 22px;
+    margin: 5px 0;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: white;
+    margin-top: 500px;
+}

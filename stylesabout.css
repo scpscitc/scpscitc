@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('b2.jpg'); /* Background image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: exo;
+    src: url(Exo-Black.otf);
+}
+
+header {
+    background-color: rgba(0, 5, 57, 0.01); /* Semi-transparent background */
+    padding: 10px 0;
+}   
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo-heading {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px; /* Adjust the height as needed */
+    margin-right: 15px; /* Space between logo and heading */
+}
+
+.heading h1 {
+    font-family:'exo';
+    margin: 0;
+    font-size: 45px; /* Adjust as needed */
+    color: rgb(240, 228, 5); /* Ensure the text color is visible */
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+.navbar ul li a {
+    color: rgb(244, 245, 251);
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar ul li a:hover {
+    color: rgb(8, 0, 250);
+}
+.signin {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.signin:hover {
+    background-color: #777;
+}
+
+/* About Us Page Styles */
+#about {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(243, 243, 243, 0.1);
+}
+
+#about h1 {
+    text-align: left;
+    font-size: 45px;
+    font: size 40px;;
+    color: #ececec;
+    margin-bottom: 20px;
+}
+#about h2 {
+    font-size: 45px;;
+    color: #fafafa;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#about p {
+    line-height: 1.6;
+    color: #fffdfd;
+    font-size: 22px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 250px;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.01);
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    margin: 0;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.team-member p {
+    margin: 5px 0;
+    color: #3b3939;
+}
+
